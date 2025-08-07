@@ -1,0 +1,76 @@
+/* Reset de márgenes y rellenos, y ajuste del modelo de caja */
+* {
+    margin: 0; /* Elimina los márgenes predeterminados de todos los elementos */
+    padding: 0; /* Elimina los rellenos predeterminados de todos los elementos */
+    box-sizing: border-box; /* Incluye el borde y el relleno dentro de las dimensiones del elemento */
+}
+
+/* Estilos generales para el body (el cuerpo de la página) */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente de la página */
+    background-color: #f4f4f4; /* Establece un color de fondo gris claro */
+    display: flex; /* Usamos Flexbox para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* La altura ocupa el 100% del viewport (pantalla visible) */
+}
+
+/* Estilos para el contenedor principal donde se encuentran todos los elementos */
+.container {
+    text-align: center; /* Alinea el texto dentro del contenedor al centro */
+    background-color: white; /* Establece un fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    padding: 30px; /* Añade un relleno de 30px en todos los lados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para darle un efecto de profundidad */
+}
+
+/* Estilos para el título principal (h1) */
+h1 {
+    margin-bottom: 20px; /* Añade un margen inferior de 20px */
+    font-size: 24px; /* Tamaño de fuente de 24px */
+    color: #333; /* Color gris oscuro para el texto */
+}
+
+/* Estilos para el campo de entrada de texto (input) */
+input {
+    padding: 10px; /* Añade un relleno de 10px dentro del campo */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    width: 200px; /* Ancho fijo de 200px */
+    margin-right: 10px; /* Añade un margen derecho de 10px para separar el campo del botón */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados de 5px */
+}
+
+/* Estilos para el botón de búsqueda (button) */
+button {
+    padding: 10px 20px; /* Añade un relleno de 10px arriba/abajo y 20px a los lados */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 5px; /* Bordes redondeados de 5px */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima del botón */
+}
+
+/* Estilos para el botón cuando el cursor está sobre él (hover) */
+button:hover {
+    background-color: #45a049; /* Cambia el color de fondo a un verde más oscuro al hacer hover */
+}
+
+/* Estilos para la sección donde se mostrará la información del Pokémon */
+#pokemonInfo {
+    margin-top: 20px; /* Añade un margen superior de 20px para separar esta sección del resto */
+}
+
+/* Estilos para las imágenes del Pokémon */
+#pokemonInfo img {
+    width: 150px; /* Establece un ancho fijo de 150px */
+    height: 150px; /* Establece una altura fija de 150px */
+    margin-bottom: 20px; /* Añade un margen inferior de 20px para separar la imagen del texto */
+}
+
+/* Estilos para los párrafos dentro de la sección de información del Pokémon */
+#pokemonInfo p {
+    font-size: 18px; /* Tamaño de fuente de 18px para los párrafos */
+    color: #333; /* Color gris oscuro para el texto */
+}
